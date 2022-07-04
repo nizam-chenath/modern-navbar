@@ -1,0 +1,24 @@
+.container{
+    background: rgb(45, 45, 124);
+    height: 100vh;
+    padding: 3rem 1rem;
+    transition: transform 100ms ease-in-out;
+}
+nav{
+    position: relative;
+    width: 16rem;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    grid-template-rows: 1fr;
+
+    // for hide the scroll bar of nav
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    transition: 16rem linear 0.3s;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    
+}
+
